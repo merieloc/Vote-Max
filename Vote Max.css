@@ -1,0 +1,151 @@
+html, body, h1, h2, h3, p, a {
+    color: #fff;
+    font-family: 'Lora', serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background-color: #A2BEB7;
+}
+
+h1 {
+  padding: 70px 0 0 230px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 8px #333;
+}
+
+h3 {
+  margin: 20px 0 0 0;
+}
+
+p, a {
+    font-family: 'Lato', sans-serif;
+}
+
+.nav {
+    margin: 30px auto 0 auto;
+    font-size: 1.3em;
+    line-height: 2.2em;
+}
+
+.nav ul {
+    border: 1px solid #bbb;
+    padding: 0;
+    width: 100%;
+}
+
+.nav ul, a {
+    background-color: #efefef;
+}
+
+.nav li {
+    display: inline-flex;
+    border-left: 1px solid #bbb;
+}
+
+.nav a {
+    text-decoration: none;
+    color: rgba(40, 88, 49, 0.8);
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0em 2.5em 0em 2.5em;
+    margin: 20px 0;
+    letter-spacing: 0.1em;
+}
+
+.Donate, .donate a {
+    background-color: #B8484A;
+    color: #fff;
+}
+
+.fold {
+display: block;
+}
+
+.left {
+    background: #406C4C url(https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/12341567_10156312902145022_5242848923551488747_n.jpg?oh=088194a1900c45f77da850cb5e8a6b88&oe=594C42A5) top left no-repeat;
+    background-size: contain;
+    width: 48%;
+  align-self: flex-start;
+    float: left;
+    height: 522px;
+  }
+
+.right {
+  width: 48%;
+  float: right;
+  align-self: flex-start;
+  height: 522px;
+}
+
+.content {
+    background-color: rgba(40, 88, 49, 0.8);
+    width: 100%;
+}
+
+.slide {
+  padding: 10px;
+}
+
+.slide input[type="range"]{
+  display: block;
+    width: 80%;
+     background: transparent;
+    margin: 10px auto;
+}
+
+.slide input[type="range"]:focus{
+outline: none;
+}
+
+.signup input[type="text"], .signup input[type="email"]{
+    background: none !important;
+    border-width: 0 0 1px 0;
+    border-bottom: 1px solid #fff;
+    padding: 30px 0 5px 0;
+    font-size: 1em;
+    color: #fff;
+    outline-width: 0;
+    display: block;
+}
+
+.signup input[type="email"]{
+  width: 400px;
+}
+
+.signup input[type="submit"] {
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    background: none;
+    margin: 20px 0;
+    font-size: 1em;
+    padding: 0;
+}
+
+.signup input[type="submit"]:focus {
+  outline: 0;
+}
+
+.signup {
+  display: inline-block;
+  width: 100%;
+  padding: 50px 20px 20px 20px;
+  background-color: #223928;
+}
+
+footer{
+    font-size: 0.6em;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a {
+  background-color: #A2BEB7;
+}
